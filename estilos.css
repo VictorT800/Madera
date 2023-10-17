@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    /*height: 200px;*/
+    background-image: url(img/retina_wood.png);
+    background-repeat: repeat∫;
+}
+
+h1 {
+    text-align: center;
+    line-height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    background-color: #fafafa;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    padding-top: 10px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    background-color: white;
+    margin: auto;
+}
+
+.presentacion {
+    /*padding: 35px 10px;*/
+    padding: 0px 10px
+}
+
+.presentacion p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 15px;
+    padding-top: 8px;
+}
+
+/*----- Estilos tabla oferta madera -----*/
+
+.tabla-contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabla-dato {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    flex: 1;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.tabla-margin-left {
+    border-left: 1px solid black;
+}
+
+.tabla-margin-bottom {
+    border-bottom: 1px solid black;
+}
+
+/* ------ Estilos resumen datos oferta madera ------ */
+
+.resumen {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.resumen-titulo {
+    width: 40%;
+}
+
+.resumen-dato {
+    padding-left: 20px;
+    line-height: 1.5;
+    width: 60%;
+}
+
+/* ------ Estilos fotos maderitas ------ */
+
+.p-maderitas {
+    margin: 20px auto;
+    font-weight: 700;
+}
+.maderitas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maderitas-foto {
+    width: 30%;
+}
+
+.maderitas-nombre {
+    width: 70%;
+    padding-left: 5px;
+}
+
+/* ------ Estilos datos empresa ------ */
+.datos-empresa {
+    text-align: center;
+    line-height: 2;
+}
+
+.datos-empresa p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/*------ Estilos FOOTER -------*/
+footer {
+    background-color: #272727;
+    color: white;
+    /*margin-top: 40px;*/
+    text-align: center;
+    }
+    
+    .footer-item {
+    padding: 60px;
+}

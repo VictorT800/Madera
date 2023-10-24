@@ -37,6 +37,35 @@ img {
     padding-top: 10px;
 }
 
+/* ------ Estilos header, logo, nombre, banderas ------*/
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+    padding-top: 0;
+}
+
+.banderas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banderas img {
+    max-width: 40px;
+}
+
 .contenedor {
     width: 90%;
     max-width: 900px;
@@ -140,10 +169,6 @@ img {
 }
 
 
-
-
-
-
 /*------ Estilos FOOTER -------*/
 footer {
     background-color: #272727;
@@ -155,3 +180,134 @@ footer {
     .footer-item {
     padding: 60px;
 }
+
+/* ----------------------- MEDIA-QUERIES ----------------------- */
+
+/* -------------------------- widht 869px ----------------------------- */
+@media screen and (max-width: 869px){
+
+    .logo img {
+        max-width: 60px;
+        padding-top: 0;
+    }
+    
+    .banderas img {
+        max-width: 40px;
+    }
+
+    h1 {
+        line-height: 200px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+  }
+
+  /* -------------------------- widht 652px ----------------------------- */
+@media screen and (max-width: 652px){
+    .header-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    
+    .logo img {
+        max-width: 45px;
+        padding-top: 0;
+    }
+    
+    .banderas img {
+        max-width: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 150px;
+    }
+
+    .tabla-dato h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .tabla-dato p {
+        font-size: 12px;
+    }
+
+    .datos-empresa p {
+        font-size: 18px;
+        font-weight: 700;
+    }
+  }
+
+    /* -------------------------- widht 500px ----------------------------- */
+@media screen and (max-width: 500px){
+    .presentacion p {
+        font-size: 16px;
+    }
+
+    .datos-empresa p {
+        font-size: 16px;
+    }
+
+    .tabla-dato h3 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .tabla-dato p {
+        font-size: 10px;
+    }
+
+    .maderitas-nombre p {
+        font-size: 16px;
+    }
+  }
+
+      /* -------------------------- widht 400px ----------------------------- */
+@media screen and (max-width: 400px){
+    .presentacion p {
+        font-size: 15px;
+    }
+
+    .datos-empresa p {
+        font-size: 14px;
+    }
+
+    .tabla-dato h3 {
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .tabla-dato p {
+        font-size: 8px;
+    }
+  }
+
+        /* -------------------------- widht 360px ----------------------------- */
+@media screen and (max-width: 400px){
+    .presentacion p {
+        font-size: 14px;
+    }
+
+    .datos-empresa p {
+        font-size: 12px;
+    }
+
+    h1 {
+        line-height: 120px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .resumen-titulo p {
+        font-size: 14px;
+    }
+
+    .resumen-dato p {
+        font-size: 14px;
+    }
+
+    .maderitas-nombre p {
+        font-size: 14px;
+    }
+  }

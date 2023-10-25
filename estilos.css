@@ -177,7 +177,7 @@ footer {
     text-align: center;
     }
     
-    .footer-item {
+.footer-item {
     padding: 60px;
 }
 
@@ -284,7 +284,7 @@ footer {
   }
 
         /* -------------------------- widht 360px ----------------------------- */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 360px){
     .presentacion p {
         font-size: 14px;
     }
@@ -309,5 +309,13 @@ footer {
 
     .maderitas-nombre p {
         font-size: 14px;
+    }
+
+    .footer-item {
+        padding: 50px;
+    }
+
+    .footer-item p {
+        font-size: 12px;
     }
   }
